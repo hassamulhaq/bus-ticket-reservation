@@ -1,0 +1,344 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header{
+	height: 70px;
+	width: 100%;
+	background: black;
+	color: white;
+}
+
+header h3 {
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+nav{
+	width: 100%;
+	background: grey;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	background: green;
+	color: white;
+	margin: 05px 02px;
+	padding: 10px;
+}
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+.contents{
+    padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background: #e9ecef;
+	width: 100%;
+    height: 100%;
+}
+.contents table{
+	margin: auto;
+}
+
+
+/* use many */
+* {
+	box-sizing: border-box;
+}
+.home {
+	text-decoration: none;
+	color: white;
+}
+hr {
+	border: 1px solid white;
+}
+.edit_button {
+	background-color: green;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+.edit_button:hover {
+	color: black;
+}
+.delete_button {
+	background-color: red;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+.delete_button:hover {
+	color: black;
+}
+
+.submit_button {
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	cursor: pointer;
+}
+.submit_button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+.logout_button {
+	background-color: white;
+	color: black;
+	float: right;
+	border: 0;
+	cursor: pointer;
+	margin-right: 2px;
+}
+.logout_button:hover {
+	background-color: black;
+	color: white;
+}
+.profile_button {
+	background-color: brown;
+	color: white;
+	float: right;
+	border: 0;
+	cursor: pointer;
+}
+.profile_button:hover {
+	background-color: white;
+	color: black;
+}
+
+.normal_button {
+	background-color: brown;
+	padding: 10px;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+.normal_button:hover {
+	background-color: white;
+	color: black;
+}
+
+.pay_button {
+	padding: 2px;
+	background-color: black;
+	color: white;
+}
+
+/* use many finish */
+
+.normal_table td, th {
+	border: 2px solid white;
+	padding: 5px;
+}
+.normal_table input, textarea {
+	padding: 10px;
+	border: 2px solid lightgrey;
+}
+.normal_table_borderless td, th {
+	border: 2px solid #e4e4e4;
+}
+.normal_table_borderless input, textarea {
+	padding: 5px;
+	border: 2px solid lightgrey;
+	width: 100%;
+}
+.normal_table_borderless select {
+	padding: 5px;
+	border: 2px solid lightgrey;
+	width: 100%;
+}
+
+
+.view_users_table {
+
+}
+.view_users_table td, th {
+	border: 2px solid white;
+}
+
+
+/* edit user */
+.edit_users_table {
+
+}
+.edit_users_table input {
+	padding: 10px;
+	border: 2px solid lightgrey;
+}
+
+/* sign up */
+.signup_login_table {
+
+}
+.signup_login_table input {
+	padding: 10px;
+	border: 2px solid lightgrey;
+}
+
+
+.view_result_table td {
+	border: 2px solid white;
+}
+
+.profile_form input {
+	padding: 10px;
+	border: 2px solid lightgrey;
+}
+
+/* Homepage Post */
+.post_body {
+	margin-top: 10px;
+}
+.homepage_post {
+	background-color: white;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+    border: 2px solid #e4e4e4;
+}
+.homepage_post:hover {
+	border: 2px solid #0387ff;
+	cursor: pointer;
+}
+.post_title {
+	color: #0387ff;
+}
+.post_image img {
+	width: 75%;
+	margin: auto;
+}
+.book_submit_button {
+	padding: 5px;
+    margin-top: 5px;
+	width: 400px;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+}
+.book_submit_button:hover {
+	background-color: #0387ff;
+}
+
+.booking_button {
+	padding: 5px;
+	width: 100%;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+	background-color: #0387ff;
+	color: white;
+}
+.booking_button:hover {
+	background-color: grey;
+}
+
+
+.source_table {
+	width: 100%;
+}
+.source_table td{
+	border: 2px solid #80808026;
+}
+
+.index_table {
+	width: 100%;
+}
+
+.post_table {
+    width: 100%;
+	overflow: auto;
+}
+.post_table td{
+    border: 2px solid #80808026;
+}
+.post_table input[type='text']{
+	padding: 10px;
+	border: 2px solid lightgrey;
+}
+.post_table input[type='date']{
+	padding: 10px;
+	width: 100%;
+	border: 2px solid lightgrey;
+}
+.post_table input[type='number']{
+	padding: 10px;
+	border: 2px solid lightgrey;
+}
+
+/* sidebar */
+.sidebar {
+
+}
+
+/* index page */
+.index_page {
+	display: flex;
+}
+.post_body {
+	flex: 3;
+}
+.sidebar {
+	flex: 1;
+	background-color: #80808026;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.sidebar table {
+	width: 100%;
+}
+.sidebar form input {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Booking Page */
+/* index page */
+.booking_page {
+	display: flex;
+	padding: 10px;
+}
+.booking_body {
+	flex: 2;
+}
+.booking_sidebar {
+	flex: 2;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.booking_sidebar table {
+	width: 100%;
+}
+.booking_sidebar form input[type='text'] {
+	width: 100%;
+}
+.booking_sidebar form input[type='number'] {
+	width: 100%;
+}
+
+
+
+
+

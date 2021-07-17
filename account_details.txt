@@ -1,0 +1,23 @@
+Admin:
+	email: admin@gmail.com
+	pass:  admin
+
+
+
+Front Desk:
+	email: frontdesk@gmail.com
+	pass: frontdesk
+	=================================
+	email: frontdesk-ayesha@gmail.com
+	pass: frontdesk
+
+
+User:
+	email: username@gmil.com
+	pass: user
+	=================================
+	email: sajid@gmail.com
+	pass:  user
+	=================================
+	email: vu@gmail.com
+	pass:  user
